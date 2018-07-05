@@ -1,3 +1,6 @@
+package test.java;
+
+import main.java.FizzBuzz;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -8,7 +11,7 @@ public class FizzBuzzTest {
 
 	@Test
 	public void firstPositionContainsNumberOne() {
-		FizzBuzz fizzBuzz = new FizzBuz();
+		FizzBuzz fizzBuzz = new FizzBuzz();
 
 		List<Object> list = fizzBuzz.generateList();
 
